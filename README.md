@@ -22,6 +22,8 @@ Após a geração de novas imagens e a criação das labels do meu dataset agora
 
 ![Organização dos dados](assets/data.png)
 
+### Segue o link do dataset: [DATA](DATA)
+
 ### Descrição dos Componentes:
 
 - **Pasta `/images/train`**: Armazena as imagens destinadas ao treinamento do modelo, representando 70% do conjunto de dados. Essas imagens são usadas para ajustar os pesos do modelo durante o processo de aprendizado.
@@ -64,6 +66,13 @@ const char* WIFI_PASS = "senha"; // Colocar Senha do WI-FI
 ## Validação do modelo 
 
 * Para validar seu modelo utilizando o ESP-32 CAM utilize o arquivo [ValModel.py](ValModel.py)
+
+  Vídeo do modelo funcionando com o ESP-32 CAM no NEXT 2024: https://youtu.be/BiFk6Dx35h8
+
 * Caso opte por validar via vídeo utilize o aqruivo [ValModel2.py](ValModel2.py)
 
+  Vídeo do modelo funcionando sendo validado via arquivo.mp4: https://youtu.be/JJD3XtoOA8M
+
 Após executar o seu código no VsCode, uma janela pop-up do Python será aberta, mostrando as imagens capturadas pela câmera do ESP32-CAM ou o Vídeo caso tenha optado por utilizar o ValModel2.
+
+
